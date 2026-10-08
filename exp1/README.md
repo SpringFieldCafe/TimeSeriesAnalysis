@@ -1,6 +1,8 @@
 # 实验一：时间序列图检验
 
-运行 `python exp1/analysis.py` 后，程序会读取 `doc/E2_2.xlsx` 和 `doc/E2_5.xlsx`，并在 `figures/` 下生成图表。
+从仓库根目录执行 `python exp1/analysis.py`，程序会读取 `exp1/doc/E2_2.xlsx` 和 `exp1/doc/E2_5.xlsx`，并将图表生成在 `exp1/figures/`。也可以进入 `exp1/` 后执行 `python analysis.py`。
+
+依赖列在本目录的 `requirements.txt` 中；在已有 Python 环境中可用 `pip install -r exp1/requirements.txt` 安装。
 
 ## CO₂ 月度序列（1975–1980）
 
