@@ -1,0 +1,32 @@
+# Experiment reports and exported documents
+*.docx
+*.doc
+*.pdf
+
+# Personal data, credentials, and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
+个人信息*
+
+# Python and Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments and editor/OS files
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
