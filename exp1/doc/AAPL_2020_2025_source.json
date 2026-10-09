@@ -1,0 +1,14 @@
+{
+  "symbol": "AAPL",
+  "source": "Yahoo Finance",
+  "source_page": "https://finance.yahoo.com/quote/AAPL/history/",
+  "download_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1577836800&period2=1767225600&interval=1d&events=div%2Csplits",
+  "retrieved_at_utc": "2026-10-09T09:06:39.772900+00:00",
+  "requested_start": "2020-01-01",
+  "requested_end_exclusive": "2026-01-01",
+  "currency": "USD",
+  "exchange_timezone": "America/New_York",
+  "price_column": "Adj Close",
+  "adjustment": "Adjusted for stock splits and dividends by Yahoo Finance",
+  "sha256": "c1424aca1886d18a1d0da57b995c17610d37e8217e02d2eeb9158d4bc87e32b5"
+}

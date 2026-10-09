@@ -2,3 +2,6 @@ pandas
 matplotlib
 statsmodels
 openpyxl
+python-docx
+numpy
+requests
