@@ -74,4 +74,4 @@ python exp1/fill_report.py
 
 可通过 `--template` 和 `--output` 指定其他本地路径，填报程序要求使用未填写的原模板。姓名、班级、学号、同组人、实验室和实验时间保留空白；评语、成绩、批阅教师和批阅日期留待教师填写。
 
-Word/PDF、原始报告模板、排版检查文件和 `AGENTS.md` 只保留本地，由 `.gitignore` 排除，不上传 GitHub。
+Word/PDF、原始报告模板、排版检查文件和 `AGENTS.md` 只保留本地，由 `.gitignore` 排除，不上传 GitHub。发布版两份 Excel 数据文件已清除作者与最后修改者姓名元数据，工作表及数据部件保持不变。
