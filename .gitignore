@@ -3,6 +3,7 @@
 *.doc
 *.pdf
 AGENTS.md
+exp1/report/
 
 # Personal data, credentials, and local configuration
 .env
