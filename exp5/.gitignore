@@ -1,0 +1,4 @@
+# Original teaching documents and workbook metadata stay local.
+/doc/*.xlsx
+/report/
+/qa/
