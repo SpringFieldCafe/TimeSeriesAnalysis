@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_rows": 200,
+  "decomposition_methods": 2,
+  "trend_values_per_method": 60,
+  "candidate_models": 12,
+  "baselines": 3,
+  "backtest_folds": 165,
+  "backtest_predictions": 3300,
+  "forecast_quarters": 20,
+  "png_files": 10,
+  "checks": [
+    "CSV哈希与本地原件逐值一致（原件存在时）",
+    "日期范围和频率",
+    "2×12独立趋势递推",
+    "独立季节效应及加法/乘法重构",
+    "3300个回测预测独立最小二乘复算",
+    "模型选择规则与AICc",
+    "参数重算20季度预测与5个年度季度均值",
+    "全部PNG可读取"
+  ]
+}
