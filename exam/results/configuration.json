@@ -1,0 +1,89 @@
+{
+  "seed": 20261029,
+  "alpha": 0.05,
+  "monthly_validation_origins": [
+    96,
+    108,
+    120,
+    132
+  ],
+  "monthly_horizon": 96,
+  "monthly_test_horizon": 24,
+  "oil_horizon": 168,
+  "oil_validation_origins": [
+    "2017-01-31T23:00:00",
+    "2017-02-28T23:00:00",
+    "2017-03-31T23:00:00",
+    "2017-04-30T23:00:00",
+    "2017-05-31T23:00:00",
+    "2017-06-30T23:00:00",
+    "2017-07-31T23:00:00",
+    "2017-08-31T23:00:00",
+    "2017-09-30T23:00:00",
+    "2017-10-31T23:00:00",
+    "2017-11-30T23:00:00"
+  ],
+  "oil_test_origins": [
+    "2017-12-31T23:00:00",
+    "2018-01-07T23:00:00",
+    "2018-01-14T23:00:00",
+    "2018-01-21T23:00:00",
+    "2018-01-28T23:00:00",
+    "2018-02-04T23:00:00",
+    "2018-02-11T23:00:00",
+    "2018-02-18T23:00:00"
+  ],
+  "oil_cutoff": "2018-02-28 23:00:00",
+  "hgb": {
+    "max_iter": 100,
+    "max_leaf_nodes": 15,
+    "learning_rate": 0.06,
+    "min_samples_leaf": 35,
+    "l2_regularization": 10.0,
+    "early_stopping": false,
+    "random_state": 20261029
+  },
+  "oil_lags": [
+    1,
+    2,
+    3,
+    24,
+    25,
+    48,
+    168
+  ],
+  "threads": 2,
+  "selection": "within best validation RMSE*1.01, then interval score, stability, MAE",
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.5",
+    "sklearn": "1.7.2"
+  },
+  "intervals": "pointwise nominal 95%; conditional on selected model; no guaranteed joint coverage",
+  "decomposition": {
+    "monthly_classical_period": 12,
+    "monthly_stl": {
+      "period": 12,
+      "seasonal": 13,
+      "robust": true
+    },
+    "oil_mstl": {
+      "periods": [
+        24,
+        168
+      ],
+      "windows": [
+        15,
+        15
+      ],
+      "iterate": 2,
+      "robust": true,
+      "seasonal_jump": 2,
+      "trend_jump": 10,
+      "low_pass_jump": 10
+    }
+  }
+}

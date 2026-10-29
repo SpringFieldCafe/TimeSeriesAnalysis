@@ -1,0 +1,10 @@
+# Supplied originals, metadata-bearing files and local documents
+/*.doc
+/*.xlsx
+/*.csv
+~$*
+backup/
+report/
+qa/
+__pycache__/
+*.pyc
