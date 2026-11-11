@@ -32,3 +32,15 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+exp1/report/
+
+# Local answer verification materials
+/验证/
+
+# Local final submission packages and personal reports
+/final/
+
+# Local originals with personal metadata; keep sanitized data under exp2/doc/
+/exp2/E2_7.xlsx
+/exp2/E2_8.xlsx
+/private/
