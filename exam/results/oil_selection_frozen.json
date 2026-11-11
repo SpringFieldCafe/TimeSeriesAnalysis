@@ -1,0 +1,122 @@
+{
+  "selected": "ARX_180_dayweek",
+  "best_statistical": "ARX_180_dayweek",
+  "best_machine_learning": "HGB_all_OT",
+  "matched_machine_learning": "HGB_all_loads",
+  "specs": [
+    {
+      "name": "Naive1",
+      "family": "naive",
+      "period": 1,
+      "window": null
+    },
+    {
+      "name": "Naive24",
+      "family": "naive",
+      "period": 24,
+      "window": null
+    },
+    {
+      "name": "Naive168",
+      "family": "naive",
+      "period": 168,
+      "window": null
+    },
+    {
+      "name": "ARX_90_day",
+      "family": "arx",
+      "window": 90,
+      "weekly": false
+    },
+    {
+      "name": "ARX_90_dayweek",
+      "family": "arx",
+      "window": 90,
+      "weekly": true
+    },
+    {
+      "name": "HGB_90_OT",
+      "family": "hgb",
+      "window": 90,
+      "loads": false
+    },
+    {
+      "name": "HGB_90_loads",
+      "family": "hgb",
+      "window": 90,
+      "loads": true
+    },
+    {
+      "name": "ARX_180_day",
+      "family": "arx",
+      "window": 180,
+      "weekly": false
+    },
+    {
+      "name": "ARX_180_dayweek",
+      "family": "arx",
+      "window": 180,
+      "weekly": true
+    },
+    {
+      "name": "HGB_180_OT",
+      "family": "hgb",
+      "window": 180,
+      "loads": false
+    },
+    {
+      "name": "HGB_180_loads",
+      "family": "hgb",
+      "window": 180,
+      "loads": true
+    },
+    {
+      "name": "ARX_all_day",
+      "family": "arx",
+      "window": null,
+      "weekly": false
+    },
+    {
+      "name": "ARX_all_dayweek",
+      "family": "arx",
+      "window": null,
+      "weekly": true
+    },
+    {
+      "name": "HGB_all_OT",
+      "family": "hgb",
+      "window": null,
+      "loads": false
+    },
+    {
+      "name": "HGB_all_loads",
+      "family": "hgb",
+      "window": null,
+      "loads": true
+    }
+  ],
+  "rule": "RMSE within 1%; interval score, fold stability, MAE",
+  "validation_origins": [
+    "2017-01-31T23:00:00",
+    "2017-02-28T23:00:00",
+    "2017-03-31T23:00:00",
+    "2017-04-30T23:00:00",
+    "2017-05-31T23:00:00",
+    "2017-06-30T23:00:00",
+    "2017-07-31T23:00:00",
+    "2017-08-31T23:00:00",
+    "2017-09-30T23:00:00",
+    "2017-10-31T23:00:00",
+    "2017-11-30T23:00:00"
+  ],
+  "independent_test_origins": [
+    "2017-12-31T23:00:00",
+    "2018-01-07T23:00:00",
+    "2018-01-14T23:00:00",
+    "2018-01-21T23:00:00",
+    "2018-01-28T23:00:00",
+    "2018-02-04T23:00:00",
+    "2018-02-11T23:00:00",
+    "2018-02-18T23:00:00"
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "series": "monthly",
+    "n": 188,
+    "adf_stat": -2.069851768774792,
+    "adf_p": 0.25680883580746083,
+    "adf_lag": 14,
+    "kpss_stat": 0.2907311448296267,
+    "kpss_p_boundary": 0.1,
+    "kpss_lags": 8,
+    "ljung_box": [
+      {
+        "series": "monthly",
+        "lag": 12,
+        "lb_stat": 519.0469120955288,
+        "lb_pvalue": 1.9521469181061287e-103
+      },
+      {
+        "series": "monthly",
+        "lag": 24,
+        "lb_stat": 634.1477257688027,
+        "lb_pvalue": 1.67287582180418e-118
+      }
+    ]
+  },
+  {
+    "series": "monthly_log_diff",
+    "n": 187,
+    "adf_stat": -3.673472514552276,
+    "adf_p": 0.004502142837088422,
+    "adf_lag": 15,
+    "kpss_stat": 0.007546506742867856,
+    "kpss_p_boundary": 0.1,
+    "kpss_lags": 0,
+    "ljung_box": [
+      {
+        "series": "monthly_log_diff",
+        "lag": 12,
+        "lb_stat": 76.31507567651381,
+        "lb_pvalue": 2.0713947617452754e-11
+      },
+      {
+        "series": "monthly_log_diff",
+        "lag": 24,
+        "lb_stat": 102.52929595198637,
+        "lb_pvalue": 1.1092088939165006e-11
+      }
+    ]
+  },
+  {
+    "series": "oil_daily_sample",
+    "n": 608,
+    "adf_stat": -1.8401252233489367,
+    "adf_p": 0.3607303394470974,
+    "adf_lag": 16,
+    "kpss_stat": 1.6375885620055857,
+    "kpss_p_boundary": 0.01,
+    "kpss_lags": 16,
+    "ljung_box": [
+      {
+        "series": "oil_daily_sample",
+        "lag": 7,
+        "lb_stat": 3375.160281897814,
+        "lb_pvalue": 0.0
+      },
+      {
+        "series": "oil_daily_sample",
+        "lag": 14,
+        "lb_stat": 6423.101711846215,
+        "lb_pvalue": 0.0
+      }
+    ]
+  },
+  {
+    "series": "oil_diff",
+    "n": 14591,
+    "adf_stat": -25.69692064288424,
+    "adf_p": 0.0,
+    "adf_lag": 24,
+    "kpss_stat": 0.013165548862533745,
+    "kpss_p_boundary": 0.1,
+    "kpss_lags": 45,
+    "ljung_box": [
+      {
+        "series": "oil_diff",
+        "lag": 24,
+        "lb_stat": 858.2191835283616,
+        "lb_pvalue": 1.0195717429040612e-165
+      },
+      {
+        "series": "oil_diff",
+        "lag": 168,
+        "lb_stat": 4851.352588891351,
+        "lb_pvalue": 0.0
+      }
+    ]
+  }
+]

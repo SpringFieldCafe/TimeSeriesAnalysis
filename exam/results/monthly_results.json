@@ -1,0 +1,200 @@
+{
+  "selected": "SARIMA_total_101_011",
+  "validation": [
+    {
+      "model": "SARIMA_daily_rate_101_011",
+      "rmse": 11289.863850234262,
+      "mae": 8940.657463168352,
+      "bias": -4676.875774963578,
+      "coverage": 1.0,
+      "width": 62121.84381920362,
+      "interval_score": 62121.84381920362,
+      "folds": 4,
+      "fold_rmse_std": 2019.7149777702102
+    },
+    {
+      "model": "SARIMA_total_101_011",
+      "rmse": 11354.6023060705,
+      "mae": 8979.611851012118,
+      "bias": -4768.2615063546145,
+      "coverage": 1.0,
+      "width": 61750.65547731818,
+      "interval_score": 61750.65547731818,
+      "folds": 4,
+      "fold_rmse_std": 2026.9943036647792
+    },
+    {
+      "model": "SeasonalNaive12",
+      "rmse": 11541.93918352987,
+      "mae": 9124.929312569473,
+      "bias": -5081.6473310842,
+      "coverage": 0.9895833333333334,
+      "width": 67690.88359685159,
+      "interval_score": 67990.80762367048,
+      "folds": 4,
+      "fold_rmse_std": 1718.5382040298182
+    },
+    {
+      "model": "SARIMA_daily_rate_100_011",
+      "rmse": 11561.56301425811,
+      "mae": 9044.689579834929,
+      "bias": -5482.479039356734,
+      "coverage": 0.9895833333333334,
+      "width": 64400.89150121816,
+      "interval_score": 64957.452892838315,
+      "folds": 4,
+      "fold_rmse_std": 2006.4125796201872
+    },
+    {
+      "model": "SARIMA_total_100_011",
+      "rmse": 11651.805586879636,
+      "mae": 9116.21528231782,
+      "bias": -5527.465746978402,
+      "coverage": 0.9895833333333334,
+      "width": 64351.02550821272,
+      "interval_score": 64896.09598169043,
+      "folds": 4,
+      "fold_rmse_std": 2016.0558553311307
+    },
+    {
+      "model": "SARIMA_total_011_011",
+      "rmse": 11743.758514531779,
+      "mae": 9376.176619093723,
+      "bias": -2930.517626899206,
+      "coverage": 1.0,
+      "width": 77077.77722599795,
+      "interval_score": 77077.77722599795,
+      "folds": 4,
+      "fold_rmse_std": 2010.1924675377365
+    },
+    {
+      "model": "SARIMA_daily_rate_011_011",
+      "rmse": 11773.737759309302,
+      "mae": 9411.02189067312,
+      "bias": -2682.0516657493354,
+      "coverage": 1.0,
+      "width": 77975.8963854311,
+      "interval_score": 77975.8963854311,
+      "folds": 4,
+      "fold_rmse_std": 1984.4359061451962
+    },
+    {
+      "model": "ETS_total_level",
+      "rmse": 11798.482507253637,
+      "mae": 9338.950120653984,
+      "bias": -4852.647228200924,
+      "coverage": 0.9895833333333334,
+      "width": 57128.401400141294,
+      "interval_score": 57539.43317682191,
+      "folds": 4,
+      "fold_rmse_std": 2101.882097288641
+    },
+    {
+      "model": "ETS_daily_rate_level",
+      "rmse": 11954.930402279799,
+      "mae": 9409.664409679111,
+      "bias": -4776.334449517323,
+      "coverage": 1.0,
+      "width": 57978.91769785437,
+      "interval_score": 57978.91769785437,
+      "folds": 4,
+      "fold_rmse_std": 2223.794112176519
+    },
+    {
+      "model": "ETS_daily_rate_damped",
+      "rmse": 12190.982813122198,
+      "mae": 10064.154233619061,
+      "bias": -3638.796745707646,
+      "coverage": 1.0,
+      "width": 56056.4771832705,
+      "interval_score": 56056.4771832705,
+      "folds": 4,
+      "fold_rmse_std": 2006.5086842420617
+    },
+    {
+      "model": "ETS_total_damped",
+      "rmse": 12386.12525236349,
+      "mae": 10244.09574064443,
+      "bias": -3528.7285942416934,
+      "coverage": 1.0,
+      "width": 56500.60959664686,
+      "interval_score": 56500.60959664686,
+      "folds": 4,
+      "fold_rmse_std": 2107.8987077172715
+    },
+    {
+      "model": "ETS_daily_rate_linear",
+      "rmse": 33002.237690318114,
+      "mae": 19839.33200627323,
+      "bias": 6080.799572099587,
+      "coverage": 0.9895833333333334,
+      "width": 86567.12838691958,
+      "interval_score": 86656.47928573523,
+      "folds": 4,
+      "fold_rmse_std": 21979.336335215263
+    },
+    {
+      "model": "ETS_total_linear",
+      "rmse": 33463.28123446961,
+      "mae": 20071.28653932858,
+      "bias": 6220.392255022899,
+      "coverage": 0.9791666666666666,
+      "width": 85499.89435093365,
+      "interval_score": 86610.52619572917,
+      "folds": 4,
+      "fold_rmse_std": 22448.49814962299
+    }
+  ],
+  "test": [
+    {
+      "model": "SARIMA_daily_rate_101_011",
+      "rmse": 8973.246060602563,
+      "mae": 7149.725466038889,
+      "bias": -3499.8118146511683,
+      "coverage": 1.0,
+      "width": 62123.144016604776,
+      "interval_score": 62123.144016604776,
+      "folds": 1,
+      "fold_rmse_std": 0.0
+    },
+    {
+      "model": "SARIMA_total_101_011",
+      "rmse": 8980.039704452713,
+      "mae": 7157.789590446304,
+      "bias": -3453.466781589262,
+      "coverage": 1.0,
+      "width": 62176.93586727675,
+      "interval_score": 62176.93586727675,
+      "folds": 1,
+      "fold_rmse_std": 0.0
+    },
+    {
+      "model": "SeasonalNaive12",
+      "rmse": 11772.166039337377,
+      "mae": 10536.04568447351,
+      "bias": -5526.892442391141,
+      "coverage": 1.0,
+      "width": 74047.74348842895,
+      "interval_score": 74047.74348842895,
+      "folds": 1,
+      "fold_rmse_std": 0.0
+    }
+  ],
+  "first_forecast": {
+    "time": "1995-09-01T00:00:00",
+    "horizon": 1,
+    "model": "SARIMA_total_101_011",
+    "forecast": 100862.29240029646,
+    "lower_95": 78543.6247798289,
+    "upper_95": 127556.06298711283
+  },
+  "last_forecast": {
+    "time": "2003-08-01T00:00:00",
+    "horizon": 96,
+    "model": "SARIMA_total_101_011",
+    "forecast": 103076.9739908501,
+    "lower_95": 55180.373144342455,
+    "upper_95": 176353.31092974343
+  },
+  "failures": []
+}

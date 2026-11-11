@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+statsmodels
+scikit-learn
+openpyxl
+threadpoolctl
+pywin32; sys_platform == "win32"

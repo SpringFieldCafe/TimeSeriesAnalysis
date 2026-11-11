@@ -1,0 +1,40 @@
+{
+  "status": "supplementary only; original selection and forecasts remain frozen",
+  "trigger": "remaining annual correlation in full-fit residuals",
+  "specs": [
+    {
+      "name": "Sensitivity_SARIMA_101_111",
+      "family": "sarima",
+      "scale": "total",
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "name": "Sensitivity_SARIMA_301_111",
+      "family": "sarima",
+      "scale": "total",
+      "order": [
+        3,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        12
+      ]
+    }
+  ],
+  "failures": [],
+  "seconds": 20.910560099990107
+}

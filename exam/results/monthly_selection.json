@@ -1,0 +1,150 @@
+{
+  "selected": "SARIMA_total_101_011",
+  "rule": "RMSE within 1%; interval score, fold stability, MAE",
+  "specs": [
+    {
+      "name": "SeasonalNaive12",
+      "family": "naive",
+      "scale": "total"
+    },
+    {
+      "name": "ETS_total_level",
+      "family": "ets",
+      "scale": "total",
+      "trend": "level"
+    },
+    {
+      "name": "ETS_total_linear",
+      "family": "ets",
+      "scale": "total",
+      "trend": "linear"
+    },
+    {
+      "name": "ETS_total_damped",
+      "family": "ets",
+      "scale": "total",
+      "trend": "damped"
+    },
+    {
+      "name": "SARIMA_total_011_011",
+      "family": "sarima",
+      "scale": "total",
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "name": "SARIMA_total_100_011",
+      "family": "sarima",
+      "scale": "total",
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "name": "SARIMA_total_101_011",
+      "family": "sarima",
+      "scale": "total",
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "name": "ETS_daily_rate_level",
+      "family": "ets",
+      "scale": "daily_rate",
+      "trend": "level"
+    },
+    {
+      "name": "ETS_daily_rate_linear",
+      "family": "ets",
+      "scale": "daily_rate",
+      "trend": "linear"
+    },
+    {
+      "name": "ETS_daily_rate_damped",
+      "family": "ets",
+      "scale": "daily_rate",
+      "trend": "damped"
+    },
+    {
+      "name": "SARIMA_daily_rate_011_011",
+      "family": "sarima",
+      "scale": "daily_rate",
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "name": "SARIMA_daily_rate_100_011",
+      "family": "sarima",
+      "scale": "daily_rate",
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    {
+      "name": "SARIMA_daily_rate_101_011",
+      "family": "sarima",
+      "scale": "daily_rate",
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    }
+  ],
+  "validation_origins": [
+    96,
+    108,
+    120,
+    132
+  ],
+  "failures": []
+}
