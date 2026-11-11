@@ -1,0 +1,6 @@
+# Teaching originals contain personal document metadata; retain them locally.
+/doc/*.xlsx
+/doc/*.doc
+/doc/*.docx
+/report/
+/qa/

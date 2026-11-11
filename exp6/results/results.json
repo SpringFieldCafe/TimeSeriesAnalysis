@@ -1,0 +1,109 @@
+{
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.6",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.5"
+  },
+  "settings": {
+    "income_horizon": 20,
+    "cv_train_sizes": [
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100,
+      104,
+      108
+    ],
+    "cv_horizon": 20,
+    "rmse_tolerance": 0.01,
+    "hac_maxlags": 8
+  },
+  "e6_2": {
+    "n": 72,
+    "period": 12,
+    "primary": "additive",
+    "available_trends": 60,
+    "trend_min_date": "1976-05-01",
+    "trend_min": 8357.583333333332,
+    "trend_start": 9599.375,
+    "trend_end": 8778.25,
+    "seasonal_peak_month": 7,
+    "seasonal_low_month": 2,
+    "diagnostics": {
+      "n": 60,
+      "jarque_bera_p": 0.9511951912332324,
+      "ljung_box": [
+        {
+          "lag": 12,
+          "lb_stat": 15.11783109128739,
+          "lb_pvalue": 0.23505577405741904
+        },
+        {
+          "lag": 24,
+          "lb_stat": 29.29167946516269,
+          "lb_pvalue": 0.2093464387119561
+        }
+      ]
+    },
+    "comparison": [
+      {
+        "model": "additive",
+        "n_common": 60,
+        "original_scale_rmse": 219.6936817834923,
+        "original_scale_mae": 173.36111111111103,
+        "primary": true
+      },
+      {
+        "model": "multiplicative",
+        "n_common": 60,
+        "original_scale_rmse": 213.46265122127681,
+        "original_scale_mae": 170.74254119169362,
+        "primary": false
+      }
+    ]
+  },
+  "e6_7": {
+    "n": 128,
+    "period": 4,
+    "horizon": 20,
+    "selected_model": "log_degree3",
+    "selection_rmse_threshold": 221.8194021814328,
+    "smearing_factor": 1.0002081072388478,
+    "parameters": {
+      "const": 6.394632669107936,
+      "t_pow1": 0.05996074207079266,
+      "t_pow2": -0.00108317955149086,
+      "t_pow3": 4.6730344796668086e-05
+    },
+    "cv_rmse": 220.2462120876021,
+    "in_sample_rmse": 53.379776829754775,
+    "quarter_hac8_f": 0.35947240762047444,
+    "quarter_hac8_p": 0.7823734581096072,
+    "forecast_first": 6434.505100011394,
+    "forecast_last": 13327.003048281322,
+    "diagnostics": {
+      "n": 128,
+      "jarque_bera_p": 0.06810235050770545,
+      "ljung_box": [
+        {
+          "lag": 4,
+          "lb_stat": 268.0817230074147,
+          "lb_pvalue": 8.265301480681701e-57
+        },
+        {
+          "lag": 8,
+          "lb_stat": 297.8142977706604,
+          "lb_pvalue": 1.2017688346483782e-59
+        }
+      ]
+    }
+  }
+}

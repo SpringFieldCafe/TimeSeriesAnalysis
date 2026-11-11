@@ -1,0 +1,24 @@
+[
+  {
+    "source": "E6_2.xlsx",
+    "sheet": "Sheet1",
+    "csv": "E6_2.csv",
+    "rows": 72,
+    "start": "1973-01-01",
+    "end": "1978-12-01",
+    "values_verified": true,
+    "source_sha256": "7c890d253052c1fb84baaa824da42ab2628855cc1184f0500e17c34d10069d8f",
+    "csv_sha256": "39d16ecd25b962d235538fc28e05498301e383933127b944f19884bdd9025763"
+  },
+  {
+    "source": "E6_7.xlsx",
+    "sheet": "Sheet1",
+    "csv": "E6_7.csv",
+    "rows": 128,
+    "start": "1948-01-01",
+    "end": "1979-10-01",
+    "values_verified": true,
+    "source_sha256": "8e936a0b11d24858cea15524cb0326d337813dc302483bca6f3ca468b294454b",
+    "csv_sha256": "a18fe60d58b2ae4f9b11faaa00c9ab77a695b06d19d624e90c21fa3570271fb2"
+  }
+]

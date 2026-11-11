@@ -1,0 +1,3 @@
+# Stable text bytes keep CSV and archive hashes identical after a Git checkout.
+* text=auto eol=lf
+*.png binary
