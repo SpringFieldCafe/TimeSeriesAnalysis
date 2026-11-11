@@ -10,6 +10,7 @@ from statsmodels.tsa.stattools import adfuller, kpss
 
 
 ROOT = Path(__file__).resolve().parent
+DATA = ROOT / "doc"
 FIGURES = ROOT / "figures"
 DATASETS = (
     ("E2_7.xlsx", "mortality", "Australian firearm-related homicide mortality rate", "Deaths per 100,000"),
@@ -24,7 +25,7 @@ AR_MODELS = (
 
 
 def read_series(filename: str, value_column: str) -> pd.DataFrame:
-    frame = pd.read_excel(ROOT / filename, sheet_name="Sheet1")
+    frame = pd.read_excel(DATA / filename, sheet_name="Sheet1")
     frame["year"] = frame["year"].astype(int)
     return frame[["year", value_column]].dropna().sort_values("year")
 
